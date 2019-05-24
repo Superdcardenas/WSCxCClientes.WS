@@ -25,7 +25,7 @@ namespace WSCxCClientes.Logica.Clases
         public string Cod_servicio_principal { get; set; } ////Obligatorio - Codigo de servicio que se utilizará para realizar los pagos. debe estar creado en PSE y en ZonaPagos
         public string Es_multicredito { get; set; } //// 1 Indica que se utilizará la modalidad multicre´dito para realizar el pago de las facturas 0 o Null no se utiliza la modalidad)
 
-        public EstadoCartera strIdCliente(int intIdTienda, string strPassword, string strId_Cliente, string strclave_cliente, List<Factura> facFacturas, string strNombre_Cliente, string strApellidos_Cliente, string strEmail, string strTelefono, string strCampo1, string strCampo2, string strCampo3, string cod_servicio_principal, string es_multicredito, string strError)
+        public EstadoCartera mtEstadoCartera(int intIdTienda, string strPassword, string strId_Cliente, string strclave_cliente, List<Factura> facFacturas, string strNombre_Cliente, string strApellidos_Cliente, string strEmail, string strTelefono, string strCampo1, string strCampo2, string strCampo3, string cod_servicio_principal, string es_multicredito, string strError)
         {
             throw new NotImplementedException();
         }
